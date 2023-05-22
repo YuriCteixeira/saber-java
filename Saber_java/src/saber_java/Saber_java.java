@@ -5,17 +5,29 @@ public class Saber_java {
 
     
     public static void main(String[] args){
-        /*Entrada:
-        Comandos para inserir dados. 
-        Temos a classe Scanner, que, para funcionar, necessita importar. 
-        */
+        //Instanciando um objeto Scanner
         Scanner input = new Scanner(System.in);
-        //Vari√°veis
+        //Vari·veis
         int a;
-        System.out.println("Informe o valor inteiro da vari√°vel:");
+        double b;
+        String c;
+        int valor;
+        boolean sera = Integer.toBoolean(valor);
+        //Entrada de dados
+        System.out.println("Informe o valor inteiro da vari·vel:");
         a = input.nextInt();
-        System.out.println ("Ol√°, mundo!");
-        System.out.println("A vari√°vel recebe "+a);
+        System.out.println("Informe o valor decimal da vari·vel:"); 
+        b = input.nextDouble();
+        System.out.println("Informe o valor string da vari·vel:");
+        c = input.next();
+         System.out.println("Informe o valor boolean da vari·vel:");
+        sera = input.nextBoolean();
+        //SaÌda de dados
+        System.out.println ("Ol·, mundo!");
+        System.out.println("A vari·vel tipo int recebe "+a);
+        System.out.println("A vari·vel tipo double recebe "+b);
+        System.out.println("A vari·vel tipo string recebe "+c);
+        System.out.println("A vari·vel tipo boolean recebe "+sera);
         
     }
     
